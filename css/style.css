@@ -1,0 +1,63 @@
+body {
+  margin: auto;
+  font-family: 'Heebo', sans-serif;
+  background: #2CC990;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 100;
+  color: #280B52;
+  opacity: .8;
+}
+
+#timer {
+  font-size: 15em;
+  color: #fff;
+  opacity: 0.6;
+}
+
+button {
+  color: #2CC990;
+  border: none;
+  margin: .2em;
+}
+
+.plus, .minus {
+  border-radius: 100%;
+  font-size: 2.2em;
+  padding-left: .4em;
+  padding-right: .4em;
+}
+
+.start, .reset {
+  border-radius: 100%;
+  font-size: 1.5em;
+  padding: 1em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  font-weight: 400;
+}
+
+.btns {
+  background-color: #5659C9;
+}
+
+.reset {
+  background-color: #fff;
+  opacity: .6;
+}
+
+.btns:hover {
+  background-color: #280B52;
+}
+
+.reset:hover {
+  background-color: #004D4D;
+}
+
+.fa-paw {
+  padding: .5em;
+  color: #fff;
+  opacity: .6;
+}

@@ -3,18 +3,37 @@
 
 <head>
   <meta charset="utf-8">
-<title>Pomodoro Clock</title>
+  <title>Pomodoro Timer</title>
 
-<!-- CSS + Fonts + Icons -->
-<link rel="stylesheet" type="text/css" href="./css/normalize.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="./css/style.css">
+  <!-- CSS + Fonts + Icons -->
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/a9f4bc5d2c.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
 
 </head>
 
 <body>
 
-  <h1>Pomodoro Clock</h1>
+  <h1 class="text-center mt-3 mb-3"><i class="fa fa-paw" aria-hidden="true"></i>Pawmodoro Timer<i class="fa fa-paw" aria-hidden="true"></i></h1>
+
+  <div class="container-fluid text-center" id="pomodoro">
+
+    <div class="col">
+      <button type="button" class="btns plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+      <button type="button" class="btns minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+    </div>
+
+    <div id="timer" class="col">25:00</div>
+
+    <div class="col">
+      <button type="button" class="btns start">Start</button>
+      <button type="button" class="reset">Reset</button>
+    </div>
+
+  </div>
 
 
   <!-- JavaScript Files -->
